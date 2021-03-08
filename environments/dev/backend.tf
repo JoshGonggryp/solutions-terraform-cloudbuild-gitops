@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "coen-joshua-gonggryp-tfstate"
     prefix = "env/dev"
   }
 }
